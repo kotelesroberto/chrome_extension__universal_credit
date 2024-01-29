@@ -1,0 +1,11 @@
+{
+    "name": "UK Universal Credit Link highlighter",
+    "version": "1.0.0",
+    "description": "Chrome Extension to enable links on UK Universal Credit website",
+    "manifest_version": 3,
+    "author": "Robert Koteles",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "UK Universal Credit Link highlighter"
+    }
+}
