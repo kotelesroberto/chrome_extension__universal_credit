@@ -1,0 +1,42 @@
+/*
+The popup.css file is where you can define the styles and appearance of the elements in your extension’s UI.
+*/
+
+body {
+  min-width: 200px;
+  max-width: 350px;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  background-color: #00823b;
+  border: 2px solid transparent;
+  border-radius: 0;
+  box-shadow: 0 2px 0 #003418;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nta, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875;
+  margin: 0 15px 15px 0;
+  padding: 8px 10px 7px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #00682f;
+}
