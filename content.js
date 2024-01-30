@@ -12,7 +12,7 @@ You can use content.js to add or remove elements on a webpage, modify its appear
 
 function urlify(text) {
   const urlRegex = /(https?:\/\/[^\s]+)/g;
-  return text.replace(urlRegex, '<a href="$1">$1</a>');
+  return text.replace(urlRegex, '<a target="_blank" href="$1">$1</a>');
 }
 
 function enableLinks() {
